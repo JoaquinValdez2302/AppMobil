@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# Aplicación para Reportar y Adoptar Animales Perdidos
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este proyecto está diseñado para permitir a los usuarios reportar animales perdidos y también para ofrecer animales disponibles para adopción.
 
-## Get started
+## Tecnologías utilizadas
 
-1. Install dependencies
+- **React Native**: Framework para crear aplicaciones móviles nativas.
+- **Expo**: Herramienta para simplificar el desarrollo en React Native.
 
-   ```bash
-   npm install
-   ```
+## Instrucciones para instalar el proyecto
 
-2. Start the app
+### Requisitos previos
 
-   ```bash
+- Tener **Node.js** instalado.
+- Tener instalado **npm** o **yarn**.
+- Tener **Expo CLI** instalado globalmente (si no lo tienes, ejecuta: `npm install -g expo-cli`).
+
+### Pasos para comenzar
+
+1. **Clonar el repositorio**:
+
+    ```bash
+    git clone https://github.com/tu-usuario/tu-repositorio.git
+    cd tu-repositorio
+    ```
+
+2. **Instalar dependencias**:
+
+    Si usas **npm**:
+
+    ```bash
+    npm install
+    ```
+
+    O si usas **yarn**:
+
+    ```bash
+    yarn install
+    ```
+
+3. **Iniciar el servidor de Expo**:
+
+    ```bash
     npx expo start
-   ```
+    ```
 
-In the output, you'll find options to open the app in a
+4. **Abrir la app** en tu dispositivo o emulador:
+   - Usa el código QR que aparecerá en la terminal para abrir la app en tu dispositivo móvil con la app de **Expo Go**.
+   - O ejecuta en el emulador de tu elección (Android/iOS).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Entorno de desarrollo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. **Si usas Android Studio**: Asegúrate de tener configurado el **Android SDK** y el emulador correctamente para ejecutar el proyecto localmente en Android.
+2. **Si no usas Android Studio**: Puedes usar un emulador de Expo o ejecutar la app directamente en un dispositivo físico.
 
-## Get a fresh project
+### ¿Cómo contribuir?
 
-When you're ready, run:
+1. Haz un **fork** de este repositorio.
+2. Crea una rama con tu nueva funcionalidad o corrección: `git checkout -b mi-nueva-funcionalidad`.
+3. Haz **commits** con cambios claros: `git commit -m "Descripción del cambio"`.
+4. Sube tu rama al repositorio: `git push origin mi-nueva-funcionalidad`.
+5. Abre un **pull request** con tus cambios.
 
-```bash
-npm run reset-project
-```
+### Notas importantes
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- **No subas la carpeta `node_modules/` ni `.expo/`** al repositorio. Usa el `.gitignore` para asegurarte de que no se suban.
+- Si tienes problemas para correr el proyecto, asegúrate de tener las dependencias correctas instaladas y los emuladores configurados correctamente.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+¡Gracias por contribuir al proyecto!
